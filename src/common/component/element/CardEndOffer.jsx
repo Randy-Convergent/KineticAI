@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import ComponentTransition from "./ComponentTransition";
 import KineticButton from "./KineticButton"; // <-- Import your custom button
+import LottieAnimation from "./LottieAnimation";
 
 export default function CardEndOffer({ className }) {
   return (
@@ -32,46 +33,9 @@ export default function CardEndOffer({ className }) {
             <KineticButton title="Book a Free Consultation" />
           </div>
         </div>
-        <motion.div
-          initial={{ y: 100 }}
-          whileInView={{ y: 0 }}
-          transition={{
-            type: "tween",
-            ease: [0.8, 0.2, 0, 1],
-            duration: 1.5,
-          }}
-          viewport={{ once: true }}
-          className="flex w-full z-[9] overflow-hidden justify-end items-start relative lg:top-[60px] left-[30px] lg:left-[190px]"
-        >
-          <Image
-            className="w-full lg:w-[90%] h-auto object-cover"
-            src="/FusionApp.png" // This is your original image
-            alt="Kinetic AI Solutions"
-            height={400}
-            width={400}
-            priority
-          />
-        </motion.div>
-        <motion.div
-          initial={{ y: 250 }}
-          whileInView={{ y: 0 }}
-          transition={{
-            type: "tween",
-            ease: [0.8, 0.2, 0, 1],
-            duration: 1.5,
-          }}
-          viewport={{ once: true }}
-          className="hidden lg:flex w-full overflow-hidden  justify-end items-start relative lg:top-[150px] left-[30px] lg:left-[90px]"
-        >
-          <Image
-            className="w-full lg:w-[90%] h-auto object-cover"
-            src="/FUSION.png" // This is your original image
-            alt="Kinetic AI Automation"
-            height={400}
-            width={400}
-            priority
-          />
-        </motion.div>
+        <div className="w-full h-full  relative flex justify-center items-center">
+          <LottieAnimation src="/contact-us.json" />
+        </div>
       </div>
     </ComponentTransition>
   );

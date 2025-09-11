@@ -2,10 +2,10 @@ import ComponentTransition from "@/common/component/element/ComponentTransition"
 import Image from "@/common/component/element/Image";
 import clsx from "clsx";
 import React from "react";
-// Import new, more relevant icons
 import { IoRocketOutline } from "react-icons/io5";
 import { FiZap } from "react-icons/fi";
 import { HiOutlineChartPie } from "react-icons/hi";
+import LottieAnimation from "@/common/component/element/LottieAnimation";
 
 export default function CardVariantBig() {
   return (
@@ -27,20 +27,13 @@ export default function CardVariantBig() {
             <h1 className="text-4xl font-semibold text-[#494949]">
               Drive business growth with our intelligent automation solutions.
             </h1>
-            <p className="text-sm text-[#7A7A7A]">
+            <p className="mt-2 text-sm text-[#7A7A7A]">
               Unlock your company&apos;s potential by automating key processes,
               allowing you to focus on innovation and strategy.
             </p>
           </div>
-          <div className="w-full h-full top-[200px] relative flex justify-center items-center">
-            <Image
-              className="w-[500px] h-auto object-cover "
-              src="/FUSION.png"
-              alt="AI Automation"
-              height={400}
-              width={400}
-              priority
-            />
+          <div className="w-full h-full relative flex justify-center items-center">
+            <LottieAnimation src="/assisstant-bot.json" />
           </div>
         </ComponentTransition>
 
@@ -60,15 +53,15 @@ export default function CardVariantBig() {
             <h1 className="text-4xl font-semibold text-[#494949]">
               Boost your team&apos;s productivity.
             </h1>
-            <p className="text-sm text-[#7A7A7A]">
+            <p className="mt-2 text-sm text-[#7A7A7A]">
               Let our AI solutions handle the repetitive work, so your team can
               focus on high-impact tasks and creative problem-solving.
             </p>
           </div>
-          <div className="w-full h-full top-[100px] relative flex justify-center items-center">
+          <div className="w-full h-full relative flex justify-center items-center">
             <Image
-              className="w-[500px] h-auto object-cover "
-              src="/chart-stat.svg"
+              className="w-[300px] h-auto object-cover "
+              src="/data-analysis.svg"
               alt="Productivity Chart"
               height={400}
               width={400}
@@ -102,14 +95,7 @@ export default function CardVariantBig() {
           </div>
         </div>
         <div className="w-full h-full  relative flex justify-center items-center">
-          <Image
-            className="w-full h-auto object-cover "
-            src="/chart-sales.svg"
-            alt="Sales Analytics"
-            height={400}
-            width={400}
-            priority
-          />
+          <LottieAnimation src="/ai-data.json" />
         </div>
       </ComponentTransition>
     </div>

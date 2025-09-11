@@ -4,9 +4,9 @@ import React from "react";
 import Functionalities from "./components/Functionalities";
 import OurStory from "./components/OurStory";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
-import FusionApp from "../Hero/components/FusionApp";
 import { CiStar } from "react-icons/ci";
 import { PiTelevisionSimpleLight } from "react-icons/pi";
+import LottieAnimation from "@/common/component/element/LottieAnimation";
 
 export default function AboutPage() {
   return (
@@ -22,16 +22,8 @@ export default function AboutPage() {
       </div>
       <div className="w-full lg:flex-row flex-col flex py-10 gap-5">
         <div className="lg:basis-[80%] h-[400px] lg:h-[600px] overflow-hidden px-5 py-5 relative rounded-2xl">
-          <FusionApp />
-          <div className="absolute inset-0 w-full z-[-9]">
-            <Image
-              className="w-full h-auto lg:h-[600px] "
-              src="https://images.unsplash.com/photo-1677336322384-2c62ab23c875?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Kinetic"
-              height={400}
-              width={400}
-              priority
-            />
+          <div className="w-full h-full  relative flex justify-center items-center">
+            <LottieAnimation src="/ai-robot.json" />
           </div>
         </div>
         <div className="basis-[80%]">
@@ -51,7 +43,7 @@ export default function AboutPage() {
                 <h1>
                   Our mission is to empower businesses by integrating
                   intelligent automation, streamlining operations, and fostering
-                  growth through innovative and customized AI solutions. [3]
+                  growth through innovative and customized AI solutions.
                 </h1>
               </ComponentTransition>
 

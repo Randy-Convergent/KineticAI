@@ -1,15 +1,10 @@
 "use client";
 import H1 from "@/common/component/element/H1";
 import React from "react";
-import dynamic from "next/dynamic";
 import HeroText from "@/common/component/element/HeroText";
-import Image from "@/common/component/element/Image";
 import SliderTechLeader from "./components/SliderTechLeader";
 import KineticButton from "@/common/component/element/KineticButton";
-
-const FusionApp = dynamic(() => import("./components/FusionApp"), {
-  ssr: false,
-});
+import LottieAnimation from "@/common/component/element/LottieAnimation";
 
 export default function Hero() {
   return (
@@ -39,19 +34,11 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* RIGHT COLUMN: Visual Element */}
+        {/* RIGHT COLUMN: Visual Element (Updated) */}
         <div className="basis-[70%] flex w-full relative justify-center items-center">
           <div className="w-full h-[600px] overflow-hidden relative rounded-3xl">
-            <FusionApp />
             <div className="absolute inset-0 w-full z-[-9]">
-              <Image
-                className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Kinetic AI in Action"
-                height={600}
-                width={400}
-                priority
-              />
+              <LottieAnimation src="/ai-animation.json" />
             </div>
           </div>
         </div>

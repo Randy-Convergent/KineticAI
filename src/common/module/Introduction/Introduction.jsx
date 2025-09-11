@@ -25,7 +25,7 @@ export default function Introduction() {
               <span className="!text-[#6d6d6d]">
                 where we put your business in motion. We engineer AI solutions
                 designed to streamline operations, eliminate repetitive tasks,
-                and unlock your company's true potential for growth.
+                and unlock your company&apos;s true potential for growth.
               </span>
             </h1>
           </motion.div>

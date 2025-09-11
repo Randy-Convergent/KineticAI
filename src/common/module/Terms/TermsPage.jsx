@@ -3,7 +3,6 @@ import H1 from "@/common/component/element/H1";
 import React from "react";
 
 export default function TermsPage() {
-  // Get the current date for the "Last Updated" field
   const currentDate = new Date().toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
@@ -30,30 +29,31 @@ export default function TermsPage() {
         </div>
         <div className="py-5 w-full">
           <p className="py-2 text-lg text-[#1d1d1db7]">
-            Please read these Terms and Conditions ("Terms") carefully before
-            using the services offered by Kinetic ("the Agency," "we," "us," or
-            "our"). This agreement sets forth the legally binding terms and
-            conditions for your use of our AI automation services. By engaging
-            our services, you agree to be bound by these Terms.
+            Please read these Terms and Conditions (&quot;Terms&quot;) carefully
+            before using the services offered by Kinetic (&quot;the
+            Agency,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;).
+            This agreement sets forth the legally binding terms and conditions
+            for your use of our AI automation services. By engaging our
+            services, you agree to be bound by these Terms.
           </p>
         </div>
 
         <div className="py-5 w-full">
           <h1 className="text-3xl font-semibold">1. Definitions</h1>
           <p className="py-2 text-lg text-[#1d1d1db7]">
-            <strong>1.1 "Services":</strong> Refers to the AI automation
-            strategy, development, implementation, and support services provided
-            by Kinetic as detailed in a specific Project Proposal or Statement
-            of Work.
+            <strong>1.1 &quot;Services&quot;:</strong> Refers to the AI
+            automation strategy, development, implementation, and support
+            services provided by Kinetic as detailed in a specific Project
+            Proposal or Statement of Work.
           </p>
           <p className="py-2 text-lg text-[#1d1d1db7]">
-            <strong>1.2 "Client":</strong> Refers to the individual, company, or
-            entity engaging the services of Kinetic.
+            <strong>1.2 &quot;Client&quot;:</strong> Refers to the individual,
+            company, or entity engaging the services of Kinetic.
           </p>
           <p className="py-2 text-lg text-[#1d1d1db7]">
-            <strong>1.3 "Project Proposal":</strong> A formal document outlining
-            the scope, timeline, deliverables, and costs for the Services to be
-            provided for a specific project.
+            <strong>1.3 &quot;Project Proposal&quot;:</strong> A formal document
+            outlining the scope, timeline, deliverables, and costs for the
+            Services to be provided for a specific project.
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export default function TermsPage() {
           <p className="py-2 text-lg text-[#1d1d1db7]">
             Upon full and final payment, the Client shall own the intellectual
             property rights to the final, custom-developed solution
-            ("Deliverables"). The Agency retains the right to use its
+            (&quot;Deliverables&quot;). The Agency retains the right to use its
             pre-existing tools, know-how, and general methodologies in the
             course of its business.
           </p>

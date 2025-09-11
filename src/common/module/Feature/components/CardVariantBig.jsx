@@ -28,7 +28,7 @@ export default function CardVariantBig() {
               Drive business growth with our intelligent automation solutions.
             </h1>
             <p className="text-sm text-[#7A7A7A]">
-              Unlock your company's potential by automating key processes,
+              Unlock your company&apos;s potential by automating key processes,
               allowing you to focus on innovation and strategy.
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function CardVariantBig() {
           </div>
           <div className="w-full">
             <h1 className="text-4xl font-semibold text-[#494949]">
-              Boost your team's productivity.
+              Boost your team&apos;s productivity.
             </h1>
             <p className="text-sm text-[#7A7A7A]">
               Let our AI solutions handle the repetitive work, so your team can

@@ -38,7 +38,7 @@ export default function Hero() {
         <div className="basis-[70%] flex w-full relative justify-center items-center">
           <div className="w-full h-[600px] overflow-hidden relative rounded-3xl">
             <div className="absolute inset-0 w-full z-[-9]">
-              <LottieAnimation src="/ai-animation.json" />
+              <LottieAnimation src="/robot-automation.json" />
             </div>
           </div>
         </div>

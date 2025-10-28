@@ -2,8 +2,8 @@ import TermsPage from "@/common/module/Terms/TermsPage";
 import React from "react";
 
 export const metadata = {
-  title: "Terms - Kinetic",
-  description: "Kinetic Terms Page",
+  title: "Terms - Convergent",
+  description: "Convergent Terms Page",
 };
 
 export default function page() {

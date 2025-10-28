@@ -2,8 +2,8 @@ import ServicesPage from "@/common/module/Feature/ServicesPage";
 import React from "react";
 
 export const metadata = {
-  title: "Services - Kinetic",
-  description: "Kinetic Services Page",
+  title: "Services - Convergent",
+  description: "Convergent Services Page",
 };
 
 export default function page() {

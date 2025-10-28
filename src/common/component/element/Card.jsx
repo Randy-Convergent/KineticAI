@@ -20,7 +20,7 @@ export default function Card({ item }) {
               <Image
                 className="w-full h-auto object-cover"
                 src={items.img}
-                alt="Kinetic"
+                alt="Convergent"
                 height={400}
                 width={400}
                 priority

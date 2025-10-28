@@ -29,7 +29,7 @@ export const PricingItem = [
       "h-auto bg-gradient-to-b from-[#495464] to-transparent text-white rounded-3xl",
   },
   {
-    plan: "Kinetic Partnership Retainer",
+    plan: "Convergent Partnership Retainer",
     price: "Custom",
     subtext: "Monthly or quarterly billing",
     features: [

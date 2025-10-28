@@ -3,7 +3,7 @@ import H1 from "@/common/component/element/H1";
 import React from "react";
 import HeroText from "@/common/component/element/HeroText";
 import SliderTechLeader from "./components/SliderTechLeader";
-import KineticButton from "@/common/component/element/KineticButton";
+import ConvergentButton from "@/common/component/element/ConvergentButton";
 import LottieAnimation from "@/common/component/element/LottieAnimation";
 
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
           {/* Main Headline */}
           <div className="w-full">
             <HeroText
-              texts="Unlock Your Business's Kinetic Potential."
+              texts="Unlock Your Business's Convergent Potential."
               className="leading-[0.95em]"
             />
           </div>
@@ -28,7 +28,7 @@ export default function Hero() {
           />
 
           <div className="w-full mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-8">
-            <KineticButton title="Book a Free Consultation" />
+            <ConvergentButton title="Book a Free Consultation" />
           </div>
         </div>
 

@@ -16,7 +16,7 @@ export default function BlogPage() {
       <div className="w-full relative z-[9]">
         <div className="w-full relative items-start gap-5 mb-10 justify-center grid">
           <div className="flex flex-col w-full items-start justify-start">
-            <HeroText texts="From the Kinetic Team" className="" />
+            <HeroText texts="From the Convergent Team" className="" />
             <H1
               title="Insights on AI, Automation, and the Future of Business."
               className="text-lg lg:text-xl text-[#7D7F78] !px-0 !tracking-[-0.04em]"

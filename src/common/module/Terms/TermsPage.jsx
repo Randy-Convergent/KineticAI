@@ -30,7 +30,7 @@ export default function TermsPage() {
         <div className="py-5 w-full">
           <p className="py-2 text-lg text-[#1d1d1db7]">
             Please read these Terms and Conditions (&quot;Terms&quot;) carefully
-            before using the services offered by Kinetic (&quot;the
+            before using the services offered by Convergent (&quot;the
             Agency,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;).
             This agreement sets forth the legally binding terms and conditions
             for your use of our AI automation services. By engaging our
@@ -43,12 +43,12 @@ export default function TermsPage() {
           <p className="py-2 text-lg text-[#1d1d1db7]">
             <strong>1.1 &quot;Services&quot;:</strong> Refers to the AI
             automation strategy, development, implementation, and support
-            services provided by Kinetic as detailed in a specific Project
+            services provided by Convergent as detailed in a specific Project
             Proposal or Statement of Work.
           </p>
           <p className="py-2 text-lg text-[#1d1d1db7]">
             <strong>1.2 &quot;Client&quot;:</strong> Refers to the individual,
-            company, or entity engaging the services of Kinetic.
+            company, or entity engaging the services of Convergent.
           </p>
           <p className="py-2 text-lg text-[#1d1d1db7]">
             <strong>1.3 &quot;Project Proposal&quot;:</strong> A formal document
@@ -114,7 +114,7 @@ export default function TermsPage() {
         <div className="py-5 w-full">
           <h1 className="text-3xl font-semibold">7. Limitation of Liability</h1>
           <p className="py-2 text-lg text-[#1d1d1db7]">
-            In no event shall Kinetic be liable for any lost profits, data loss,
+            In no event shall Convergent be liable for any lost profits, data loss,
             or any indirect, special, incidental, or consequential damages
             arising out of or in connection with our Services, even if advised
             of the possibility of such damages. Our total liability shall not

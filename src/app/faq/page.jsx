@@ -2,8 +2,8 @@ import FaqPage from "@/common/module/Faq/components/FaqPage";
 import React from "react";
 
 export const metadata = {
-  title: "Faq - Kinetic",
-  description: "Kinetic faq Page",
+  title: "Faq - Convergent",
+  description: "Convergent faq Page",
 };
 
 export default function page() {

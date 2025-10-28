@@ -2,8 +2,8 @@ import AboutPage from "@/common/module/About/AboutPage";
 import React from "react";
 
 export const metadata = {
-  title: "About - Kinetic",
-  description: "Kinetic Landing Page",
+  title: "About - Convergent",
+  description: "Convergent Landing Page",
 };
 
 export default function page() {

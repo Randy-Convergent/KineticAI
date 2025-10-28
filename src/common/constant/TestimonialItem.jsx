@@ -14,7 +14,7 @@ export const TestimonialItem = [
   {
     name: "Mark Chen",
     testi:
-      "Working with Kinetic was a pivotal moment for our operations. Their AI solution automated over 20 hours of manual data entry a week, freeing up our team to focus on strategic growth. The efficiency gains were immediate and substantial.",
+      "Working with Convergent was a pivotal moment for our operations. Their AI solution automated over 20 hours of manual data entry a week, freeing up our team to focus on strategic growth. The efficiency gains were immediate and substantial.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <GoGear size={50} className="text-[#7D7F78]" />,
@@ -24,7 +24,7 @@ export const TestimonialItem = [
   {
     name: "Laura Evans",
     testi:
-      "Kinetic's marketing automation is phenomenal. We've seen a 40% increase in qualified leads since implementing their AI-powered nurturing system. It's like having a marketing strategist working for us 24/7.",
+      "Convergent's marketing automation is phenomenal. We've seen a 40% increase in qualified leads since implementing their AI-powered nurturing system. It's like having a marketing strategist working for us 24/7.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <HiOutlineSpeakerphone size={50} className="text-[#7D7F78]" />,
@@ -34,7 +34,7 @@ export const TestimonialItem = [
   {
     name: "David Kim",
     testi:
-      "As a startup founder, every minute counts. Kinetic built a custom workflow that automated our entire client onboarding process. This has allowed us to scale rapidly without compromising on the customer experience. A true game-changer.",
+      "As a startup founder, every minute counts. Convergent built a custom workflow that automated our entire client onboarding process. This has allowed us to scale rapidly without compromising on the customer experience. A true game-changer.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <BsGraphUpArrow size={50} className="text-[#7D7F78]" />,
@@ -44,7 +44,7 @@ export const TestimonialItem = [
   {
     name: "Samantha Patel",
     testi:
-      "The AI-driven analytics dashboard Kinetic developed for us provides insights we never thought possible. Our decision-making is now faster, smarter, and backed by real-time data. The ROI was clear within the first quarter.",
+      "The AI-driven analytics dashboard Convergent developed for us provides insights we never thought possible. Our decision-making is now faster, smarter, and backed by real-time data. The ROI was clear within the first quarter.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <HiOutlineChartPie size={50} className="text-[#7D7F78]" />,
@@ -54,7 +54,7 @@ export const TestimonialItem = [
   {
     name: "Brian Miller",
     testi:
-      "Our customer support response times have been slashed by 60% thanks to the AI chatbot and ticketing system from Kinetic. Customer satisfaction is at an all-time high, and our support team can now handle more complex issues.",
+      "Our customer support response times have been slashed by 60% thanks to the AI chatbot and ticketing system from Convergent. Customer satisfaction is at an all-time high, and our support team can now handle more complex issues.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <BiSupport size={50} className="text-[#7D7F78]" />,
@@ -64,7 +64,7 @@ export const TestimonialItem = [
   {
     name: "Rachel Garcia",
     testi:
-      "The team at Kinetic are not just developers; they are true strategic partners. They took the time to deeply understand our business before proposing a solution. Their professionalism and expertise are second to none.",
+      "The team at Convergent are not just developers; they are true strategic partners. They took the time to deeply understand our business before proposing a solution. Their professionalism and expertise are second to none.",
     className:
       "w-full lg:w-[400px] lg:h-[400px] items-start justify-start flex-col",
     icon: <IoBusinessOutline size={50} className="text-[#7D7F78]" />,

@@ -4,7 +4,7 @@ import H1 from "./H1";
 import Image from "./Image";
 import clsx from "clsx";
 import ComponentTransition from "./ComponentTransition";
-import KineticButton from "./KineticButton";
+import ConvergentButton from "./ConvergentButton";
 import LottieAnimation from "./LottieAnimation";
 
 export default function CardEndOffer({ className }) {
@@ -28,7 +28,7 @@ export default function CardEndOffer({ className }) {
             textColor="white"
           />
           <div className="w-full relative mt-4">
-            <KineticButton title="Book a Free Consultation" />
+            <ConvergentButton title="Book a Free Consultation" />
           </div>
         </div>
         <div className="w-full h-full  relative flex justify-center items-center">

@@ -2,8 +2,8 @@ import ContactPage from "@/common/module/Contact/ContactPage";
 import React from "react";
 
 export const metadata = {
-  title: "Contact - Kinetic",
-  description: "Kinetic Contact Page",
+  title: "Contact - Convergent",
+  description: "Convergent Contact Page",
 };
 
 export default function page() {

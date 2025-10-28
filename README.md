@@ -1,8 +1,8 @@
-# Kinetic - AI Automation Agency Website
+# Convergent - AI Automation Agency Website
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)![Framer Motion](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)![PNPM](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 
-This is the official codebase for the Kinetic website, a modern, responsive, and performant marketing site built with Next.js 14 and Tailwind CSS. The project is designed to showcase the services of an AI Automation Agency, build trust with potential clients through a content-rich blog, and convert visitors into leads.
+This is the official codebase for the Convergent website, a modern, responsive, and performant marketing site built with Next.js 14 and Tailwind CSS. The project is designed to showcase the services of an AI Automation Agency, build trust with potential clients through a content-rich blog, and convert visitors into leads.
 
 ## Features
 
@@ -71,7 +71,7 @@ The magic happens in the `/src/common/lib/blog.js` file. This utility reads all 
     title: "This is the Title of Your New Blog Post"
     date: "YYYY-MM-DD"
     slug: "the-url-slug-for-this-post"
-    author: "The Kinetic Team"
+    author: "The Convergent Team"
     coverImage: "/images/blog/your-cover-image.jpg"
     excerpt: "A short, compelling summary of the article (1-2 sentences). This will appear on the blog preview cards."
     tags: ["Tag One", "Tag Two", "Relevant Topic"]

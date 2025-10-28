@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import LottieAnimation from "@/common/component/element/LottieAnimation";
-import KineticButton from "@/common/component/element/KineticButton";
+import ConvergentButton from "@/common/component/element/ConvergentButton";
 
 export default function NotFound() {
   return (
@@ -24,7 +24,7 @@ export default function NotFound() {
         {/* Call to Action Button */}
         <div className="mt-4">
           <Link href="/">
-            <KineticButton title="Return to Homepage" />
+            <ConvergentButton title="Return to Homepage" />
           </Link>
         </div>
       </div>

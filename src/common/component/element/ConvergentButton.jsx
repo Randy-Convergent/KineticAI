@@ -2,7 +2,7 @@ import React from "react";
 import { RiArrowRightLine } from "react-icons/ri";
 import clsx from "clsx";
 
-export default function KineticButton({ title, className }) {
+export default function ConvergentButton({ title, className }) {
   return (
     <button
       className={clsx(

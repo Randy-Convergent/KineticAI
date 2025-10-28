@@ -24,7 +24,7 @@ export default function AboutCard({ item }) {
               <Image
                 className="w-full h-[200px] object-cover "
                 src={items.img}
-                alt="Kinetic"
+                alt="Convergent"
                 height={400}
                 width={400}
                 priority

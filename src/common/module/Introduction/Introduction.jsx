@@ -21,7 +21,7 @@ export default function Introduction() {
             }}
           >
             <h1 className="text-2xl lg:text-4xl tracking-[-0.03em] leading-[120%] text-[#CCCCCC]">
-              Welcome to Kinetic.{" "}
+              Welcome to Convergent.{" "}
               <span className="!text-[#6d6d6d]">
                 where we put your business in motion. We engineer AI solutions
                 designed to streamline operations, eliminate repetitive tasks,

@@ -49,7 +49,7 @@ const Navbar = () => {
             <h1
               className={` text-3xl text-[#696969] tracking-[-0.10em] font-semibold`}
             >
-              Kinetic
+              Convergent
             </h1>
           </Link>
         </div>

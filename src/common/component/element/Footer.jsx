@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5 flex px-6 lg:justify-center ">
               {/* <Logo h={60} w={60} /> */}
-              <h1 className="text-xl font-semibold">Kinetic</h1>
+              <h1 className="text-xl font-semibold">Convergent</h1>
             </div>
 
             <div className="mt-6 lg:mt-0 w-full ">
@@ -82,7 +82,7 @@ export default function Footer() {
 
           <div className="py-5 mt-20 w-full flex justify-center items-center">
             <p className="text-center text-black">
-              © Kinetic 2025 - All rights reserved
+              © Convergent 2025 - All rights reserved
             </p>
           </div>
         </div>

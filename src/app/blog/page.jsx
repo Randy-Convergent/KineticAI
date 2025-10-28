@@ -2,8 +2,8 @@ import BlogPage from "@/common/module/Blog/components/BlogPage";
 import React from "react";
 
 export const metadata = {
-  title: "Blog - Kinetic",
-  description: "Kinetic Blog Page",
+  title: "Blog - Convergent",
+  description: "Convergent Blog Page",
 };
 
 export default function page() {

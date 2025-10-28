@@ -3,9 +3,8 @@ import React from "react";
 import H1 from "./H1";
 import Image from "./Image";
 import clsx from "clsx";
-import { motion } from "framer-motion";
 import ComponentTransition from "./ComponentTransition";
-import KineticButton from "./KineticButton"; // <-- Import your custom button
+import KineticButton from "./KineticButton";
 import LottieAnimation from "./LottieAnimation";
 
 export default function CardEndOffer({ className }) {
@@ -17,7 +16,6 @@ export default function CardEndOffer({ className }) {
       )}
     >
       <div className="w-full relative bg-gradient-to-b from-[#141414] to-[#141414] rounded-3xl border-[1px] border-[#262626] z-[9]  items-start h-auto lg:h-[500px] overflow-hidden lg:flex-row flex-col flex justify-center ">
-        {/* Left Column: Content & CTA (Updated) */}
         <div className="lg:w-[150%] gap-8 px-4 lg:px-10 py-20 flex flex-col justify-center items-start">
           <H1
             className="!items-start !w-full !justify-start text-3xl lg:!text-5xl font-semibold text-start "

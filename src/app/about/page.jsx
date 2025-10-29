@@ -3,7 +3,7 @@ import React from "react";
 
 export const metadata = {
   title: "About - Convergent",
-  description: "Convergent Landing Page",
+  description: "Convergent Landing Page.",
 };
 
 export default function page() {

@@ -20,14 +20,21 @@ export default function Introduction() {
               x: TranslateX,
             }}
           >
-            <h1 className="text-2xl lg:text-4xl tracking-[-0.03em] leading-[120%] text-[#CCCCCC]">
-              Welcome to Convergent.{" "}
+            <h1 className="text-2xl lg:text-4xl tracking-[-0.03em] leading-[120%] text-[#CCCCCC] mb-4">
+              <span className="font-bold text-black">Welcome to Convergent.</span>{" "}
+            </h1>
+            <h1 className="text-2xl lg:text-4xl tracking-[-0.03em] leading-[120%] text-[#CCCCCC] mb-4">
+              <span className="font-italics text-black">
+                where buisiness and technology meet.
+              </span>
+            </h1>
+            <h2 className="text-2xl lg:text-4xl tracking-[-0.03em] leading-[120%] text-[#CCCCCC]">
               <span className="!text-[#6d6d6d]">
-                where we put your business in motion. We engineer AI solutions
+                We engineer AI solutions
                 designed to streamline operations, eliminate repetitive tasks,
                 and unlock your company&apos;s true potential for growth.
               </span>
-            </h1>
+            </h2>
           </motion.div>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Hero() {
           {/* Main Headline */}
           <div className="w-full">
             <HeroText
-              texts="Unlock Your Business's Convergent Potential."
+              texts="Unlock Your Business's Potential."
               className="leading-[0.95em]"
             />
           </div>

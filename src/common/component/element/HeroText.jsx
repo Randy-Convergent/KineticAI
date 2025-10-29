@@ -21,7 +21,7 @@ export default function HeroText({ className, texts,style, ...other }) {
           key={index}
           initial="initial"
           whileInView="animate"
-          className={`${style} flex justify-start items-center  overflow-hidden `}
+          className={`${style} flex justify-start items-center overflow-hidden `}
           transition={{
             type: 'spring'
           }}

@@ -14,7 +14,7 @@ export default function BlogPage() {
   return (
     <div className="h-auto max-w-[1500px] flex flex-col justify-center px-5 lg:px-10 mb-20 w-full mt-28 md:mt-32 overflow-hidden">
       <div className="w-full relative z-[9]">
-        <div className="w-full relative items-start gap-5 mb-10 justify-center grid">
+        <div className="w-full relative items-start gap-6 mb-10 justify-center grid">
           <div className="flex flex-col w-full items-start justify-start">
             <HeroText texts="From the Convergent Team" className="" />
             <H1
